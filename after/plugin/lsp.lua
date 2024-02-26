@@ -17,7 +17,8 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = {'pyright'},
+  -- ensure_installed = {'pyright'},
+    -- irasyti savo setup veliau
   handlers = {
     lsp_zero.default_setup,
     lua_ls = function()
